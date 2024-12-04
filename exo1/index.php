@@ -1,9 +1,11 @@
 <?php 
 
-$count = 0;
 
-for($i = 0; $i < 11; $i += 1){
-    echo $count ++;
+
+for($i = 0; $i <= 10; $i += 1){
+    $result = $i;
+    echo "<br>";
+    echo $result;
 }
 
 
